@@ -1,0 +1,16 @@
+name: mario
+channels:
+  - nodefaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - tqdm
+  - scikit-learn
+  - pytorch==2.4.0
+  - pytorch-cuda=11.8
+  - torchaudio
+  - torchvision
+  - tensorboard
+  - conda-forge::torchdiffeq
+  - matplotlib
