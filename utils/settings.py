@@ -2,7 +2,7 @@ from types import SimpleNamespace
 from typing import Tuple, Optional
 
 import torch
-from loss import get_loss
+from Loss import get_loss
 from torch.optim import Optimizer
 from torch.optim.lr_scheduler import _LRScheduler
 
